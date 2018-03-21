@@ -1,0 +1,72 @@
+/**
+ * Styles for admin
+ */
+/*=================================================
+            Radio Image Control
+=================================================*/
+.ab-meta-options-wrap .ui-button {
+    margin:        0;
+    border-radius: 0;
+    border:        none;
+    background:    transparent;
+}
+
+.ab-meta-options-wrap .ui-button-text { padding: 0; }
+
+.ab-meta-options-wrap img {
+    box-sizing: border-box;
+    max-width:  100%;
+    height:     auto;
+    padding:    1px;
+    border:     4px solid transparent;
+}
+
+.ab-meta-options-wrap img:hover,
+.ab-meta-options-wrap img:focus {
+    border-color: #ddd;
+}
+
+.ab-meta-options-wrap .ui-state-active img {
+    border-color: #00a0d2;
+}
+
+/*=================================================
+            Meta Box section
+=================================================*/
+.ab-meta-container {
+    display: inline-block;
+}
+#accessbuddy_post_meta ul.ab-meta-menu-wrapper {
+    width: 22%;
+    float: left;
+    box-sizing: border-box;
+}
+.ab-single-meta {
+    display: none;
+}
+.ab-single-meta.active {
+    display: block;
+}
+.ab-meta-tab span.dashicons {
+    margin-right: 7px;
+}
+.ab-meta-menu-wrapper li {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-bottom: none;
+    cursor: pointer;
+}
+.ab-meta-menu-wrapper li:last-child {
+    border-bottom: 1px solid #dcdcdc;
+}
+.ab-metabox-content-wrapper {
+    width: 75%;
+    float: right;
+    margin-left: 2.5%;
+}
+
+.upload-thumb > img {
+    width: 100%;
+    margin-top: 10px;
+}

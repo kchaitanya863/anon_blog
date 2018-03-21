@@ -1,0 +1,146 @@
+/*Page Metabox*/
+#vmag_post_metabox_settings .inside {
+    padding: 0;
+    margin-top: 0;
+}
+
+ul.vmag-page-meta-tabs {
+    width: 20%;
+    float: left;
+    background: #f5f5f5 none repeat scroll 0 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.vmag-page-meta-tabs li {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #dcdcdc;
+    cursor: pointer;
+}
+
+.vmag-page-meta-tabs li.active, .vmag-page-meta-tabs li:hover {
+    background: #fff;
+}
+
+.vmag-page-meta-tabs li .fa{
+    padding-right:  6px;
+}
+
+.pg-metabox {
+    width: 78%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.pg-metabox-inside{
+    display: none;
+}
+
+.pg-metabox-inside .meta-row {
+    background: #fcfcfc none repeat scroll 0 0;
+    border: 2px solid #f1f1f1;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#pg-metabox-info > h3 {
+    font-weight: bolder;
+    padding: 0;
+}
+
+#pg-metabox-info > ul {
+    list-style: outside none circle;
+    margin-left: 40px;
+}
+
+.meta-title {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input.upload {
+    width: 80%;
+}
+
+.meta-options {
+    padding: 10px;
+}
+
+.opz_img_upload {
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 84px;
+}
+
+.opz_img_upload:hover{
+    background: #fff;
+}
+
+.opaze_bg_image_preview {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.remove-image .fa-times-circle{
+    color: #717171;
+    cursor: pointer;
+}
+
+.page-portfolio-layout li, .page-services-layout li, .page-team-layout li, .page-testimonials-layout li {
+    display: inline-block;
+    margin: 2px 2px 2px 2px;
+}
+
+.vmag-meta-text-field label, .vmag-meta-text-field input, .vmag-meta-text-field span {
+    display: block;
+    padding: 5px;
+}
+.vmag-meta-text-field label {
+    width: 18%;
+}
+.pg-metabox-inside li {
+    display: inline-block;
+}
+#vmag-img-container-meta .vmag-radio-img-img {
+    border: 3px solid #DEDEDE;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#vmag-img-container-meta .vmag-radio-img-selected {
+    border: 3px solid #AAA;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/*page Metabox close*/
+
+.upload-thumb > img {
+    width: 100%;
+}
+
+span.section-header {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    display: inline-block;
+    background: #DADADA;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.layout-image-wrapper span.image-title {
+    font-weight: 700;
+}
+.layout-image-wrapper {
+    text-align: center;
+    padding: 10px 0px;
+    background: #F1F1F1;
+    margin-top: 5px;
+}
