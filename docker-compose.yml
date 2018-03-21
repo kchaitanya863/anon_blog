@@ -1,0 +1,18 @@
+wordpress_sumanth:
+    image: wordpress
+    links:
+     - mariadb_sumanth:mysql
+    environment:
+     - WORDPRESS_DB_PASSWORD=<password>
+    ports:
+     - "<server public IP>:8080:80"
+    volumes:
+     - ./code:/code
+     - ./html:/var/www/html
+mariadb_sumanth:
+    image: mariadb
+    environment:
+     - MYSQL_ROOT_PASSWORD=<password>
+     - MYSQL_DATABASE=wordpress
+    volumes:
+     - ./database:/var/lib/mysql
